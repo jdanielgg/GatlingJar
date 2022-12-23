@@ -1,4 +1,4 @@
-package gatling.test.example.simulation;
+package com.github.jdanielgg.gatlingjar.simulation;
 
 public final class SystemPropertiesUtil {
     public static String getAsStringOrElse(String key, String fallback) {

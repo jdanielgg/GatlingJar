@@ -1,6 +1,6 @@
-package gatling.test.example.simulation;
+package com.github.jdanielgg.gatlingjar.simulation;
 
-import static gatling.test.example.simulation.SystemPropertiesUtil.*;
+import static com.github.jdanielgg.gatlingjar.simulation.SystemPropertiesUtil.*;
 
 public final class PerfTestConfig {
     public static final String BASE_URL = getAsStringOrElse("baseUrl", "http://localhost:8080");

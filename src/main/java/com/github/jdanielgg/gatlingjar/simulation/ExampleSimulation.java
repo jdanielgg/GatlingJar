@@ -1,4 +1,4 @@
-package gatling.test.example.simulation;
+package com.github.jdanielgg.gatlingjar.simulation;
 
 import io.gatling.javaapi.core.ScenarioBuilder;
 import io.gatling.javaapi.core.Simulation;
@@ -6,7 +6,7 @@ import io.gatling.javaapi.http.HttpProtocolBuilder;
 
 import java.time.Duration;
 
-import static gatling.test.example.simulation.PerfTestConfig.*;
+import static com.github.jdanielgg.gatlingjar.simulation.PerfTestConfig.*;
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.http;
 import static io.gatling.javaapi.http.HttpDsl.status;

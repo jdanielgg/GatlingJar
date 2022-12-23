@@ -1,4 +1,4 @@
-# %NAME% Changelog
+# GatlingJar Changelog
 
 ## [Unreleased]
 

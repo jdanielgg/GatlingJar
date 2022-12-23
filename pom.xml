@@ -5,15 +5,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jecklgamis</groupId>
-    <artifactId>gatling-java-example</artifactId>
-    <name>gatling-java-example</name>
+    <groupId>com.github.jdanielgg.gatlingjar</groupId>
+    <artifactId>GatlingJar</artifactId>
+    <name>GatlingJar</name>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
         <gatling.version>3.7.3</gatling.version>
-        <simulationClass>gatling.test.example.simulation.ExampleSimulation</simulationClass>
+        <simulationClass>com.github.jdanielgg.gatlingjar.simulation.ExampleSimulation</simulationClass>
     </properties>
 
     <dependencies>
